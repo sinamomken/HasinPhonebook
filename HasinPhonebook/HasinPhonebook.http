@@ -1,0 +1,6 @@
+@HasinPhonebook_HostAddress = http://localhost:5124
+
+GET {{HasinPhonebook_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
