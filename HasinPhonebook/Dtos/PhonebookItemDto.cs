@@ -1,12 +1,10 @@
-﻿namespace HasinPhonebook.Entities
+﻿namespace HasinPhonebook.Dtos
 {
-    public class PhonebookItem
+    public class PhonebookItemDto
     {
-        public long Id { get; set; }
         public string ItemFirstName { get; set; }
         public string? ItemLastName { get; set; }
         public string ItemPhone { get; set; }
         public string? ItemTag { get; set; }
-        public Phonebook Phonebook { get; set; }
     }
 }
