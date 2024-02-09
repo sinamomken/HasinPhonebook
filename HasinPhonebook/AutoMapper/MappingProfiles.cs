@@ -9,6 +9,8 @@ namespace HasinPhonebook.AutoMapper
         public MappingProfiles()
         {
             CreateMap<PhonebookItem, PhonebookItemDto>();
+            CreateMap<PhonebookItemDto, PhonebookItem>();
+            CreateMap<Phonebook, PhonebookDto>();
         }
     }
 }

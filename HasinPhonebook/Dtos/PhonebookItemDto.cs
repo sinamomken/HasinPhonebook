@@ -2,6 +2,7 @@
 {
     public class PhonebookItemDto
     {
+        public long? Id { get; set; }
         public string ItemFirstName { get; set; }
         public string? ItemLastName { get; set; }
         public string ItemPhone { get; set; }
